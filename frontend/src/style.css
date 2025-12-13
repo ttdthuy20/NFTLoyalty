@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Navbar */
+nav {
+  padding: 10px 20px;
+  background-color: #1e1e2f;
+  color: white;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Trang chủ */
+.home-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.home-container h2 {
+  color: #0d47a1;
+  margin-bottom: 15px;
+}
+
+.home-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.home-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.home-container li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+button {
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0051a3;
+}
+/* Thêm vào cuối file index.css */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Quan trọng để padding không làm tăng chiều rộng */
+}
+
+.web3-step {
+    padding: 15px;
+    border: 1px dashed #007bff;
+    border-radius: 8px;
+    margin-top: 25px;
+    background-color: #eaf5ff;
+}
+
+.disabled-button {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
