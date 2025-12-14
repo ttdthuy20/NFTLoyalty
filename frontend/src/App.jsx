@@ -10,6 +10,7 @@ import NFT from './components/NFT'; // bộ sưu tập NFT
 import Dashboard from './components/Dashboard'; // Dashboard
 import Wallet from './components/Wallet'; // Wallet
 import Wallet2 from './components/Wallet2'; // Wallet
+import ConnectWallet from './components/ConnectWallet.jsx'; // ConnectWallet
 import { Link } from 'react-router-dom';
 
 import "./App.css";
@@ -41,8 +42,8 @@ const Navbar = ({ isConnected, connectWallet }) => {
         </div>
 
         {/* Nút Web3 quan trọng nhất */}
-        <button 
-          onClick={connectWallet}
+        {/* <button 
+          onClick={() => window.location.href = "/ConnectWallet"}
           className={`flex items-center space-x-2 px-6 py-2 rounded-full font-bold transition transform hover:scale-105 ${
             isConnected 
               ? "bg-green-500 hover:bg-green-600" 
@@ -51,9 +52,12 @@ const Navbar = ({ isConnected, connectWallet }) => {
         >
           <FaWallet />
           <span>{isConnected ? "0x1234...abcd" : "Kết nối Ví Meta Mask"}</span>
-        </button>
+        </button> */}
 
-
+    <div className="flex items-center space-x-2 px-6 py-2 rounded-full font-bold transition transform hover:scale-105">
+      <ConnectWallet />
+    </div>
+    
       </div>
     </nav>
   );
@@ -88,6 +92,9 @@ const HeroSection = () => {
           Săn NFT thành viên ngay
           
         </button>
+
+        
+ 
       </div>
     </div>
   );
@@ -370,6 +377,7 @@ function App() {
           <Route path="/Dashboard" element={<Dashboard />} /> 
           <Route path="/Wallet" element={<Wallet />} /> 
           <Route path="/Wallet2" element={<Wallet2 />} /> 
+          <Route path="/ConnectWallet" element={<ConnectWallet />} /> 
         </Routes>
       <Footer />
     </div>
