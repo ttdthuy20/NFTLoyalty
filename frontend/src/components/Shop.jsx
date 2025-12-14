@@ -25,7 +25,7 @@ const ShopList = () => {
             category: "Quán ăn Ý", 
             discount: "Giảm 10% cho toàn bộ hóa đơn", 
             location: "Phường An Hải, Đà Nẵng", 
-            img: "public/shop8.jpg" 
+            img: "/images/shop8.jpg" 
         },
 
         { 
@@ -33,7 +33,7 @@ const ShopList = () => {
             category: "Nhà hàng Cao cấp", 
             discount: "Giảm 10% cho toàn bộ hóa đơn", 
             location: "Phường An Hải, Đà Nẵng", 
-            img: "public/shop5.jpg" 
+            img: "/images/shop5.jpg" 
         },
         { 
             name: "Spa Relax Omega", 
