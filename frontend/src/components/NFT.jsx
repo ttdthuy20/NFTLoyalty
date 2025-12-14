@@ -5,7 +5,7 @@ import { Zap, Users, Wallet, Gem, ArrowRight } from 'lucide-react';
 const NFTCollectionIntro = () => {
     // Dữ liệu mô phỏng các chỉ số quan trọng của bộ sưu tập
     const stats = [
-        { label: "Tổng số NFT", value: "10,000", icon: Gem },
+        { label: "Tổng số NFT", value: "10", icon: Gem },
         { label: "Giá sàn (Floor Price)", value: "0.5 ETH", icon: Wallet },
         { label: "Số lượng Holders", value: "3,500", icon: Users },
         { label: "Volume Giao Dịch", value: "850 ETH", icon: Zap },
@@ -23,7 +23,7 @@ const NFTCollectionIntro = () => {
                             Bridge Era: <span className="block text-white">The Digital Bridge</span>
                         </h1>
                         <p className="text-xl text-gray-300 mb-8 max-w-lg mx-auto lg:mx-0">
-                            Bộ sưu tập NFT độc quyền kết nối thế giới ảo và thế giới thực, mang lại đặc quyền chăm sóc khách hàng VIP trong hệ sinh thái Đà Nẵng.
+                            Bộ sưu tập NFT độc quyền kết nối thế giới ảo và thế giới thực, mang lại đặc quyền chăm sóc khách hàng VIP trong hệ sinh thái độc đáo NFT Loyalty của Thành phố Đà Nẵng.
                         </p>
                         
                         {/* Nút CTA */}
@@ -32,7 +32,10 @@ const NFTCollectionIntro = () => {
                                 <span>Mint ngay (Đang mở)</span>
                                 <ArrowRight className="w-5 h-5" />
                             </button>
-                            <button className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-xl hover:bg-white hover:text-gray-900 transition duration-300">
+                            <button  className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-xl hover:bg-white hover:text-gray-900 transition duration-300" onClick={() => window.open(
+    "https://opensea.io",
+    "_blank"
+  )}>
                                 Xem trên OpenSea
                             </button>
                         </div>
