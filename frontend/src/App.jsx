@@ -65,7 +65,7 @@ const HeroSection = () => {
     <div className="relative h-screen flex items-center justify-center text-white overflow-hidden" 
       style={{
         // Sử dụng ảnh Cầu Rồng Đà Nẵng làm nền chính
-        backgroundImage: `linear-gradient(rgba(20, 10, 60, 0.7), rgba(30, 20, 80, 0.7)), url('/src/assets/caurong1.jpg')`,
+        backgroundImage: `linear-gradient(rgba(20, 10, 60, 0.7), rgba(30, 20, 80, 0.7)), url('/public/caurong1.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed' // Hiệu ứng parallax nhẹ
@@ -163,10 +163,10 @@ const IntroSection = () => {
 const ShopShowcase = () => {
   // Dữ liệu giả lập các shop
   const shops = [
-    { name: "Cà phê Sông Hàn View", type: "F&B", discount: "Giảm 15% cho NFT Hạng Vàng", img: "/src/assets/shop1.jpg" },
-    { name: "Ngũ Hành Resort & Spa", type: "Lưu trú", discount: "Tặng 1 đêm khi sở hữu NFT Bạch Kim", img: "/src/assets/shop2.jpg" },
-    { name: "Đà Nẵng Souvenirs", type: "Mua sắm", discount: "Giảm 10% tổng hóa đơn", img: "/src/assets/shop3.jpg" },
-    { name: "Hải sản Trường Sa", type: "Du lịch", discount: "Giảm 15% hóa đơn", img: "/src/assets/shop4.jpg" },
+    { name: "Cà phê Sông Hàn View", type: "F&B", discount: "Giảm 15% cho NFT Hạng Vàng", img: "/public/assets/shop1.jpg" },
+    { name: "Ngũ Hành Resort & Spa", type: "Lưu trú", discount: "Tặng 1 đêm khi sở hữu NFT Bạch Kim", img: "/public/assets/shop2.jpg" },
+    { name: "Đà Nẵng Souvenirs", type: "Mua sắm", discount: "Giảm 10% tổng hóa đơn", img: "/public/assets/shop3.jpg" },
+    { name: "Hải sản Trường Sa", type: "Du lịch", discount: "Giảm 15% hóa đơn", img: "/public/assets/shop4.jpg" },
   ];
 
   return (
@@ -212,11 +212,11 @@ const ShopShowcase = () => {
 const NFTShowcase = () => {
   // 
   const NFTs = [
-    { name: "Cầu Rồng", type: "LEGENDARY", rate: "5%", img: "/src/assets/nft1.png" },
-    { name: "Cầu Sông Hàn", type: "EPIC", rate: "10%", img: "/src/assets/nft2.png" },
-    { name: "Cầu Trần Thị Lý", type: "RARE", rate: "20%", img: "/src/assets/nft3.png" },
-    { name: "Cầu Thuận Phước", type: "UNCOMMON", rate: "30%", img: "/src/assets/nft4.png" },
-    { name: "Cầu Nguyễn Văn Trỗi", type: "COMMON", rate: "35%", img: "/src/assets/nft5.png" },
+    { name: "Cầu Rồng", type: "LEGENDARY", rate: "5%", img: "/public/nft1.png" },
+    { name: "Cầu Sông Hàn", type: "EPIC", rate: "10%", img: "/public/nft2.png" },
+    { name: "Cầu Trần Thị Lý", type: "RARE", rate: "20%", img: "/public/nft3.png" },
+    { name: "Cầu Thuận Phước", type: "UNCOMMON", rate: "30%", img: "/public/nft4.png" },
+    { name: "Cầu Nguyễn Văn Trỗi", type: "COMMON", rate: "35%", img: "/public/nft5.png" },
   ];
 
   return (
