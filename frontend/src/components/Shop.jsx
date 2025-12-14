@@ -10,7 +10,7 @@ const ShopList = () => {
             category: "Quán Cà Phê", 
             discount: "Giảm 15% khi thanh toán bằng NFT", 
             location: "Phường Hải Châu, Đà Nẵng", 
-            img: "/public/shop1.jpg" 
+            img: "/images/shop1.jpg" 
         },
         
          { 
@@ -18,7 +18,7 @@ const ShopList = () => {
             category: "Quán Cà Phê", 
             discount: "Giảm 5% khi thanh toán bằng NFT", 
             location: "Phường Liên chiểu, Đà Nẵng", 
-            img: "/public/shop7.jpg" 
+            img: "/images/shop7.jpg" 
         },
          { 
             name: "Pizza Bella Italia", 
@@ -40,7 +40,7 @@ const ShopList = () => {
             category: "Dịch Vụ Sức Khỏe", 
             discount: "Tặng 1 buổi massage miễn phí", 
             location: "Phường Thanh Khê, Đà Nẵng", 
-            img: "/public/shop2.jpg" 
+            img: "/images/shop2.jpg" 
         },
        
         // Thêm nhiều cửa hàng hơn để hiển thị cuộn
@@ -49,7 +49,7 @@ const ShopList = () => {
             category: "Nhà Hàng Hải Sản", 
             discount: "Giảm 5%", 
             location: "Quận Hải Châu, Đà Nẵng", 
-            img: "/public/shop4.jpg" 
+            img: "/images/shop4.jpg" 
         },
     ];
 
